@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <link rel='stylesheet' type='text/css' href='style.css'>
+
+  </head>
+  <body style='padding: 0px; margin: 0; max-width: 100%; overflow-x: hidden;'>
+    <div style='width: 100%; margin: auto; display: flex; flex-direction: column; justify-content: center;'>
+      <div style='margin: auto;'>
+        <image style='margin: auto; object-fit: cover; height: 185px; max-width: 100%' src='https://fecproxysephora.s3-us-west-1.amazonaws.com/Screen+Shot+2020-06-29+at+22.42.14.png'></image>
+      </div>
+      <div style="display: flex; flex-direction: row; width: 100%; justify-content: center;">
+        <div id='PhotoGalleryApp' style='margin: 20px 20px'></div>
+        <div id='checkout-page' style='margin: 20px 20px'></div>
+      </div>
+      <div style="margin: auto; display: flex; flex-direction: column; width: 1000px; justify-content: center;">
+        <image style="margin: 10px auto; object-fit: cover; width: 100%;" src='https://fecproxysephora.s3-us-west-1.amazonaws.com/reviewsHeader.png'>
+        <image style="margin: 10px auto; object-fit: cover; width: 100%;" src='https://fecproxysephora.s3-us-west-1.amazonaws.com/reviewsCARD1.png'>
+        <image style="margin: 10px auto; object-fit: cover; width: 100%;" src='https://fecproxysephora.s3-us-west-1.amazonaws.com/reviewsCARD2.png'>
+      </div>
+      <div id='reviews'></div>
+      <div id='explore'>Did not render</div>
+    </div>
+
+    <div style='min-height: 200px;'></div>
+
+    <script src='http://localhost:3007/photoGallery/bundle.js'></script>
+    <script src='http://localhost:3007/checkout/bundle.js'></script>
+    <!-- <script src='http://localhost:3007/reviews/bundle.js'></script> -->
+    <script src='http://localhost:3007/explorethis/bundle.js'></script>
+
+  </body>
+</html>
