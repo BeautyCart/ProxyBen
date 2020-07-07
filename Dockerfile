@@ -10,7 +10,7 @@ RUN npm install
 
 COPY . /src/app
 
-EXPOSE 3007
+EXPOSE 80
 
 CMD ["npm", "start"]
 
